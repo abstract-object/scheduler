@@ -141,5 +141,6 @@ storiesOf("Appointment", module)
   .add("Empty", () => <Empty onAdd={action("onAdd")} />)
   .add("Show", () => <Show student="Lydia Miller-Jones" interviewer={interviewers[0]} onEdit={action("onEdit")} onDelete={action("onDelete")} />)
   .add("Confirm", () => <Confirm message="Delete the appointment?" onConfirm={action("onConfirm")} onCancel={action("onCancel")} />)
+  .add("Status", () => <Status message="Deleting" />)
 
 
